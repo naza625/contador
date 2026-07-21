@@ -1,5 +1,6 @@
-import Header from "./components/Header"
-import Teoria from "./components/Teoria"
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Teoria from "./components/Teoria";
 
 function App() {
     //aqui va a ir la logica del compnente
@@ -11,6 +12,7 @@ function App() {
     <main className="container">
       <Teoria />
     </main>
+    <Footer />  
     </>
   )
 }
